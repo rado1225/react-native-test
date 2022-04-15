@@ -23,7 +23,6 @@ function RootStack() {
 
 export default function App() {
   let globalState = new InvoiceContainer({ initialSeeding: true });
-  console.log('git_test');
   return (
     <Provider inject={[globalState]}>
       <NavigationContainer>
